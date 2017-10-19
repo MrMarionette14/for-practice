@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               14's Blog
-tagline:             ''
+tagline:             'A blog based on jekyll'
 description:         'As you see it's a personal blog.'
 url:                 http://www.mrmarionette14.name
 baseurl:             ''
@@ -15,7 +15,7 @@ paginate:            5
 # About/contact
 author:
   name:              MrMarionette14
-  url:               mrmarionette14.name
+  url:               https://github.com/MrMarionette14
   email:             iforgetitagain@sina.com
 
 # Custom vars
