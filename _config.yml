@@ -8,14 +8,14 @@ relative_permalinks: true
 title:               14's Blog
 tagline:             ''
 description:         'As you see it's a personal blog.'
-url:                 http://mrmarionette14.name
+url:                 http://www.mrmarionette14.name
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
   name:              MrMarionette14
-  url:               https://github.com/MrMarionette14
+  url:               mrmarionette14.name
   email:             iforgetitagain@sina.com
 
 # Custom vars
