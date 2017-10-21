@@ -1,22 +1,31 @@
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink: pretty
-relative_permalinks: true
+permalink:      /:year-:month-:day/:title
 
 # Setup
-title:               14's Blog
-tagline:             'A blog based on jekyll'
-description:         'As you see it's a personal blog.'
-url:                 http://www.mrmarionette14.name
-baseurl:             ''
-paginate:            5
+title:          Tale
+paginate:       5
+baseurl:        ""
+url:            "http://www.mrmarionette14.name"
 
-# About/contact
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
 author:
-  name:              MrMarionette14
-  url:               https://github.com/MrMarionette14
-  email:             iforgetitagain@sina.com
+  name:         MrMarionette14
+  url:          https://github.com/MrMarionette14
+  email:        iforgetitagain@sina.com
 
 # Custom vars
-version:             1.0.0
+version:        3.4.1
+github:
+  repo:         https://github.com/MrMarionette14/mrmarionette14.github.io
+
+# Gems
+gems:
+  - jekyll-paginate
